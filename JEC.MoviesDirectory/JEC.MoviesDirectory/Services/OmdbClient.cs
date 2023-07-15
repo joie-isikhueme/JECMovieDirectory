@@ -67,29 +67,29 @@ namespace JEC.MoviesDirectory.Services
             }
         }
 
-        public async Task<Result<MovieResult>> GetMovieByTitleAsync(string title, CancellationToken ct)
-        {
-            try
-            {
-                var response = await _httpClient.GetAsync($"{_baseUrl}?s={title}&apikey={_apiKey}", ct);
+        //public async Task<Result<MovieResult>> GetMovieByTitleAsync(string title, CancellationToken ct)
+        //{
+        //    try
+        //    {
+        //        var response = await _httpClient.GetAsync($"{_baseUrl}?s={title}&apikey={_apiKey}", ct);
 
-                response.EnsureSuccessStatusCode();
+        //        response.EnsureSuccessStatusCode();
 
-                var result = await response.Content.ReadFromJsonAsync<MovieResult>();
+        //        var result = await response.Content.ReadFromJsonAsync<MovieResult>();
 
-                return new Result<MovieResult> { Data = result, IsSuccess = true };
-            }
-            catch (HttpRequestException ex)
-            {
-                var error = new HttpError() { Message = ex.Message, StatusCode = ex.StatusCode };
+        //        return new Result<MovieResult> { Data = result, IsSuccess = true };
+        //    }
+        //    catch (HttpRequestException ex)
+        //    {
+        //        var error = new HttpError() { Message = ex.Message, StatusCode = ex.StatusCode };
 
-                return new Result<MovieResult>
-                {
-                    IsSuccess = false,
-                    Error = error
-                };
-            }
-        }
+        //        return new Result<MovieResult>
+        //        {
+        //            IsSuccess = false,
+        //            Error = error
+        //        };
+        //    }
+        //}
 
     }
 }

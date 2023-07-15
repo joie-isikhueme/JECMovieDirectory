@@ -64,25 +64,25 @@ namespace JEC.MoviesDirectory.Controllers
         }
 
 
-        [HttpGet("title")]
-        public async Task<IResult> FindMovieByTitle(string title)
-        {
-            var res = await _client.GetMovieByTitleAsync(title, CancellationToken.None);
+        //[HttpGet("title")]
+        //public async Task<IResult> FindMovieByTitle(string title)
+        //{
+        //    var res = await _client.GetMovieByTitleAsync(title, CancellationToken.None);
 
-            if (res.IsSuccess != true)
-            {
-                switch (res.Error.StatusCode)
-                {
-                    case HttpStatusCode.NotFound:
-                        return Results.NotFound();
-                    case HttpStatusCode.Unauthorized:
-                        return Results.Unauthorized();
-                    case HttpStatusCode.InternalServerError:
-                        return Results.StatusCode(500);
-                }
-            }
+        //    if (res.IsSuccess != true)
+        //    {
+        //        switch (res.Error.StatusCode)
+        //        {
+        //            case HttpStatusCode.NotFound:
+        //                return Results.NotFound();
+        //            case HttpStatusCode.Unauthorized:
+        //                return Results.Unauthorized();
+        //            case HttpStatusCode.InternalServerError:
+        //                return Results.StatusCode(500);
+        //        }
+        //    }
 
-            return Results.Ok(res.Data);
-        }
+        //    return Results.Ok(res.Data);
+        //}
     }
 }

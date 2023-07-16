@@ -95,3 +95,12 @@ C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\
 C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\Moq.dll
+C:\Users\joy.isikhueme\source\repos\JEC.MoviesDirectory\JEC.MoviesDirectory\bin\Debug\net6.0\nunit.framework.dll

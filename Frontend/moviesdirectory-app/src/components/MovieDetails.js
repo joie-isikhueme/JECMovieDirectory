@@ -45,7 +45,7 @@ const MovieDetails = () => {
                 <h2 className='bg-pink-300'>Ratings</h2>
                 {movieDetails.ratings.map(ratings => (
                     <span className='flex flex-col bg-zinc-100 rounded hover:bg-zinc-200'>
-                    <p>`Source: {ratings.source}, Value: {ratings.value}</p>
+                    <p>Source: {ratings.source}, Value: {ratings.value}</p>
                     </span>
                 
                     
